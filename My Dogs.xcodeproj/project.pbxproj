@@ -17,6 +17,10 @@
 		84AE549C2768B7BE00478A86 /* My_DogsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE549B2768B7BE00478A86 /* My_DogsTests.swift */; };
 		84AE54A62768B7BE00478A86 /* My_DogsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE54A52768B7BE00478A86 /* My_DogsUITests.swift */; };
 		84AE54A82768B7BE00478A86 /* My_DogsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE54A72768B7BE00478A86 /* My_DogsUITestsLaunchTests.swift */; };
+		84AE54B52768BE8B00478A86 /* SaveDogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE54B42768BE8B00478A86 /* SaveDogViewController.swift */; };
+		84AE54B72769D77F00478A86 /* DogsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE54B62769D77F00478A86 /* DogsProtocols.swift */; };
+		84AE54B92769DCD400478A86 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE54B82769DCD400478A86 /* CustomCollectionViewCell.swift */; };
+		84BE00F1276CC82900A5EC50 /* ColumnFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE00F0276CC82900A5EC50 /* ColumnFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		84AE54A12768B7BE00478A86 /* My DogsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My DogsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AE54A52768B7BE00478A86 /* My_DogsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_DogsUITests.swift; sourceTree = "<group>"; };
 		84AE54A72768B7BE00478A86 /* My_DogsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_DogsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84AE54B42768BE8B00478A86 /* SaveDogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveDogViewController.swift; sourceTree = "<group>"; };
+		84AE54B62769D77F00478A86 /* DogsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsProtocols.swift; sourceTree = "<group>"; };
+		84AE54B82769DCD400478A86 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		84BE00F0276CC82900A5EC50 /* ColumnFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				84AE548F2768B7BE00478A86 /* LaunchScreen.storyboard */,
 				84AE54922768B7BE00478A86 /* Info.plist */,
 				84AE548A2768B7BD00478A86 /* My_Dogs.xcdatamodeld */,
+				84AE54B42768BE8B00478A86 /* SaveDogViewController.swift */,
+				84AE54B62769D77F00478A86 /* DogsProtocols.swift */,
+				84AE54B82769DCD400478A86 /* CustomCollectionViewCell.swift */,
+				84BE00F0276CC82900A5EC50 /* ColumnFlowLayout.swift */,
 			);
 			path = "My Dogs";
 			sourceTree = "<group>";
@@ -262,8 +274,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				84AE54862768B7BD00478A86 /* ViewController.swift in Sources */,
+				84AE54B92769DCD400478A86 /* CustomCollectionViewCell.swift in Sources */,
 				84AE54822768B7BD00478A86 /* AppDelegate.swift in Sources */,
+				84AE54B52768BE8B00478A86 /* SaveDogViewController.swift in Sources */,
 				84AE548C2768B7BD00478A86 /* My_Dogs.xcdatamodeld in Sources */,
+				84BE00F1276CC82900A5EC50 /* ColumnFlowLayout.swift in Sources */,
+				84AE54B72769D77F00478A86 /* DogsProtocols.swift in Sources */,
 				84AE54842768B7BD00478A86 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
